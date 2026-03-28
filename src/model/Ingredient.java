@@ -1,0 +1,18 @@
+package model;
+public class Ingredient {
+    private String name;
+    private double price;
+
+    public Ingredient(String name, double price) { // constructer
+        this.name = name;
+        this.price = price;
+    }
+
+    public String getName() { return name; } // getter
+    public double getPrice() { return price; } // getter
+
+    @Override
+    public String toString() {
+        return name + " (" + price + "₺)";
+    }
+}
