@@ -26,15 +26,26 @@ Kullanıcılar pizzalarını seçebilir, boyut ve hamur türü belirleyebilir, e
 
 ## Dosya Yapısı:
 PizzaOrderApp/
+
 │
 ├─ src/
+
 │  ├─ Main.java
+
 │  ├─ model/
+
 │  │  ├─ Ingredient.java
+
 │  │  ├─ Pizza.java
+
 │  │  ├─ SepetYonetici.java
+
 │  │  └─ Siparis.java
+
 │  └─ ui/
+
 │     └─ PizzaSelectionFrame.java
+
 ├─ .gitignore
+
 └─ README.md
